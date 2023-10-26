@@ -1,0 +1,11 @@
+opam-version: "2.0"
+synopsis: "Set OCaml to be compiled with flambda2"
+depends: [
+  "ocaml-variants" {post & >= "4.14.1"}
+  "base-jst" {post}
+]
+conflicts: [
+  "ocaml-option-flambda"
+]
+maintainer: "b.tataroiu@gmail.com"
+flags: compiler
